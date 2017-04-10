@@ -10,7 +10,7 @@ console.warn = function () {
 };
 
 if (system.args.length < 3) {
-    console.log('Usage:', args[0], '-u URL | -f file');
+    console.log('Usage:', system.args[0], '-u URL | -f file');
     phantom.exit(1);
 }
 
